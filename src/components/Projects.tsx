@@ -10,42 +10,48 @@ export default function Projects() {
       description: 'Full-stack MERN application with advanced features including real-time inventory, payment integration, and admin dashboard.',
       image: 'https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'Stripe'],
-      gradient: 'from-cyan-500 to-blue-500'
+      gradient: 'from-cyan-500 to-blue-500',
+      github: 'https://github.com/ashishhpdave/NeeramSetu-web'
     },
     {
-      title: 'SaaS Dashboard',
-      description: 'Modern analytics dashboard with real-time data visualization, user management, and AI-powered insights.',
+      title: 'SaaS Billing',
+      description: 'Modern analytics billing dashbord with real-time data visualization, user management, and AI-powered insights.',
       image: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['React.js', 'TailwindCSS', 'Firebase', 'Chart.js'],
-      gradient: 'from-purple-500 to-pink-500'
+      gradient: 'from-purple-500 to-pink-500',
+      github: 'https://github.com/ashishhpdave/RaghavMobile'
     },
     {
-      title: 'Mobile Fitness App',
+      title: 'Hisab App',
       description: 'Cross-platform mobile application for workout tracking, meal planning, and progress monitoring.',
       image: 'https://images.pexels.com/photos/4162449/pexels-photo-4162449.jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['React Native', 'Firebase', 'Redux', 'REST API'],
-      gradient: 'from-blue-500 to-cyan-500'
+      gradient: 'from-blue-500 to-cyan-500',
+      github: 'https://github.com/ashishhpdave/HisabApp'
     },
     {
-      title: 'Portfolio CMS',
+      title: ' Old Portfolio',
       description: 'Headless CMS for portfolio websites with drag-and-drop builder, SEO optimization, and analytics.',
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['React.js', 'Node.js', 'MongoDB', 'TailwindCSS'],
-      gradient: 'from-pink-500 to-purple-500'
+      gradient: 'from-pink-500 to-purple-500',
+      github: 'https://github.com/ashishhpdave/new-portfolio'
     },
     {
       title: 'Real-Time Chat App',
       description: 'WebSocket-based chat application with rooms, file sharing, and end-to-end encryption.',
       image: 'https://images.pexels.com/photos/8867482/pexels-photo-8867482.jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['React.js', 'Socket.io', 'Node.js', 'MongoDB'],
-      gradient: 'from-cyan-500 to-purple-500'
+      gradient: 'from-cyan-500 to-purple-500',
+      github: 'https://github.com/ashishhpdave/chat-app'
     },
     {
-      title: 'AI Content Generator',
-      description: 'AI-powered content creation tool with templates, SEO optimization, and multi-language support.',
+      title: 'Food del',
+      description: 'powered food del, SEO optimization,and ecommers platfrom.',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React.js', 'OpenAI', 'Supabase', 'TailwindCSS'],
-      gradient: 'from-blue-500 to-pink-500'
+      tags: ['React.js', 'OpenAI', 'MongoDB', 'TailwindCSS'],
+      gradient: 'from-blue-500 to-pink-500',
+      github: 'https://github.com/ashishhpdave/food-del'
     }
   ];
 
@@ -96,7 +102,7 @@ export default function Projects() {
                       <ExternalLink className="w-5 h-5 text-gray-900" />
                     </a>
                     <a
-                      href="#"
+                      href={project.github || '#'}
                       className="p-3 bg-white/90 backdrop-blur-sm rounded-full hover:bg-white transition-all duration-300 hover:scale-110"
                     >
                       <Github className="w-5 h-5 text-gray-900" />
