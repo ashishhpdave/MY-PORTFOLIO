@@ -35,27 +35,26 @@ export default function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'ashish@devopstechnologies.com',
-      href: 'mailto:ashish@devopstechnologies.com'
+      value: 'aashishdaveaashishdave@gmail.com',
+      href: 'devopstechnologies25@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+91 (977) 279-5757',
+      href: 'tel:+91 9772795757'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Sanchore, Rajasthan, India',
       href: '#'
     }
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' }
+    { icon: Github, href: 'https://github.com/ashishhpdave', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/aashish-dave-225b69290/', label: 'LinkedIn' },
   ];
 
   return (

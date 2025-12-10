@@ -27,11 +27,6 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex items-center gap-2 text-gray-400">
-            <span>Made with</span>
-            <Heart className="w-4 h-4 text-red-500 animate-pulse" />
-            <span>using React.js & TailwindCSS</span>
-          </div>
 
           <div className="text-gray-500 text-sm">
             {currentYear} Ashish Dave. All rights reserved.
@@ -41,7 +36,7 @@ export default function Footer() {
             <span>Co-Founder</span>
             <span className="w-1 h-1 bg-gray-600 rounded-full" />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-400 font-semibold">
-              DevOps Technologies
+             <a href="https://devpstechnologies.in/">DevOps Technologies</a> 
             </span>
           </div>
         </div>

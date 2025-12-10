@@ -77,9 +77,9 @@ export default function Hero() {
           </button>
         </div>
 
-        <div className="flex gap-6 justify-center animate-slideUp animation-delay-1000">
+        <div className="flex gap-5 justify-center animate-slideUp animation-delay-1000 mb-5">
           <a
-            href="https://github.com"
+            href="https://github.com/ashishhpdave/"
             target="_blank"
             rel="noopener noreferrer"
             className="group p-4 bg-gray-800/50 backdrop-blur-sm rounded-full border border-gray-700 hover:border-cyan-500 transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-cyan-500/50"
@@ -87,7 +87,7 @@ export default function Hero() {
             <Github className="w-6 h-6 text-gray-300 group-hover:text-cyan-400 transition-colors" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/aashish-dave-225b69290/"
             target="_blank"
             rel="noopener noreferrer"
             className="group p-4 bg-gray-800/50 backdrop-blur-sm rounded-full border border-gray-700 hover:border-blue-500 transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-500/50"
@@ -95,7 +95,7 @@ export default function Hero() {
             <Linkedin className="w-6 h-6 text-gray-300 group-hover:text-blue-400 transition-colors" />
           </a>
           <a
-            href="mailto:ashish@example.com"
+            href="aashishdaveaashishdave@gmail.com"
             className="group p-4 bg-gray-800/50 backdrop-blur-sm rounded-full border border-gray-700 hover:border-purple-500 transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-purple-500/50"
           >
             <Mail className="w-6 h-6 text-gray-300 group-hover:text-purple-400 transition-colors" />
@@ -103,12 +103,6 @@ export default function Hero() {
         </div>
       </div>
 
-      <button
-        onClick={() => scrollToSection('about')}
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce"
-      >
-        <ArrowDown className="w-8 h-8 text-cyan-400" />
-      </button>
     </section>
   );
 }
